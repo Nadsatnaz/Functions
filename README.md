@@ -3,11 +3,11 @@ Funções são blocos de construção fundamentais em JavaScript. Uma função �
 
 **Return** é uma declaração que finaliza a execução de uma função, retornando um determinado valor. Tudo o que estiver antes do return será executado. Já os códigos colocados após o return não serão executados. Por isso, tenha o cuidado de usar o return somente quando toda a sua função já tiver sido percorrida, para que o resultado seja o que você deseja imprimir.
 
-# **Funções de Expressão (Function Expressions)**
+## **Funções de Expressão (Function Expressions)**
 
 Funções de Expressão podem ser anônimas, ou seja sem nome, dizemos que uma função é uma functions expression quando ela atribui o seu valor a uma variável, veja abaixo:
 
-# **Funções auto-executáveis (IIFE)**
+## **Funções auto-executáveis (IIFE)**
 
 São funções que se auto-invocam, extremamento útil para não poluir o escopo global desnecessariamente.Faça uso do ‘use strict’ para evitar problemas com escopo, ele gera um erro no browser ao tentar declararmos uma variável sem a palavra “var”.
 
